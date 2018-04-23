@@ -1,7 +1,7 @@
 Title: Python Notebooks
 
-|Numerical Analysis  |
+| Elementary Geophysics |
 |------------- |
-|[Lesson 1]({filename}/Notebooks/Numerical_Analysis/article1.md)  |
+|[Gravity]({filename}/Notebooks/Elementary_Geophysics/gravity1.md)  |
 |Content Cell  |
 
