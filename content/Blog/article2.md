@@ -4,4 +4,3 @@ Category: Blog
 
 See below intra-site link examples in Markdown format.
 
-[a link relative to the content root]({filename}/Notebooks/Numerical_Analysis/article1.md)

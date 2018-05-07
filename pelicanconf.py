@@ -73,7 +73,8 @@ AVATAR = 'images/profile.jpg'
 
 PUBLICATIONS_SRC = 'content/example.bib'
 CUSTOM_CSS = 'static/css/custom.css'
-DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'publications']
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'publications', 'tags']
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/css/custom.css'},
 }
+PADDED_SINGLE_COLUMN_STYLE = False

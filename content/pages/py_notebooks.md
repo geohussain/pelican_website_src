@@ -2,6 +2,6 @@ Title: Python Notebooks
 
 | Elementary Geophysics |
 |------------- |
-|[Gravity]({filename}/Notebooks/Elementary_Geophysics/gravity1.md)  |
+|[Gravity 1 - Modeling gravity of an underground sphere]({filename}/Notebooks/Elementary_Geophysics/gravity1.md)  |
 |Content Cell  |
 
