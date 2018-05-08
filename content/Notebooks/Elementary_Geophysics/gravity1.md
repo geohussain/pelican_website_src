@@ -7,5 +7,4 @@ Slug: Gravity-1
 Authors: Hussain AlSalem
 Summary: A forward modelling code for measuring the gravity of a sphere
 
-This is the content of my super blog post.
 {% notebook PythonNotebooks/gravity-1.ipynb %}
