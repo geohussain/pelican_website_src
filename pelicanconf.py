@@ -27,10 +27,11 @@ AUTHOR_FEED_RSS = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
+HIDE_SIDEBAR = False
 SOCIAL = (('github', 'http://github.com/geohussain'),
           ('bitbucket', 'https://bitbucket.org/geohussain/'),
           )
-DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = False
 RECENT_POST_COUNT = 4
 DISPLAY_TAGS_ON_SIDEBAR = True
 TAGS_URL = 'tags.html'
@@ -44,8 +45,9 @@ DEFAULT_PAGINATION = 8
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins/pelican-plugins']
-PLUGINS = ['i18n_subsites', 'subcategory', 'liquid_tags', 'pelican-ipynb.liquid', 'tag_cloud', 'pelican-bibtex']
-MARKUP = ('md', )
+PLUGINS = ['i18n_subsites', 'subcategory', 'liquid_tags', 'pelican-ipynb.liquid', 'tag_cloud', 'pelican-bibtex', 'pelican-ipynb.markup']
+IGNORE_FILES = ['.ipynb_checkpoints']
+MARKUP = ('md', 'ipynb')
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.tables': {},

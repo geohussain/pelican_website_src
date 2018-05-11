@@ -6,5 +6,3 @@ Tags: Geophysics, Gravity
 Slug: Gravity-1
 Authors: Hussain AlSalem
 Summary: A forward modelling code for measuring the gravity of a sphere
-
-{% notebook PythonNotebooks/gravity-1.ipynb %}

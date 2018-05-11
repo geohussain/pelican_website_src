@@ -6,5 +6,3 @@ Tags: Geophysics, Seismics
 Slug: Seismic-1
 Authors: Hussain AlSalem
 Summary: Code that describes the harmonic wave solution.
-
-{% notebook PythonNotebooks/HarmonicWaveSolution.ipynb %}
