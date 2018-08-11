@@ -70,8 +70,8 @@ MENUITEMS = (
 )
 PYGMENTS_STYLE = 'monokai'
 
-# ABOUT_ME = 'I\'m a geophysicist and programmer with love to high performance computing (HPC).'
-# AVATAR = 'images/profile.jpg'
+ABOUT_ME = 'I\'m a geophysicist and programmer with love to high performance computing (HPC).'
+AVATAR = 'images/profile.jpg'
 
 PUBLICATIONS_SRC = 'content/example.bib'
 CUSTOM_CSS = 'static/css/custom.css'
