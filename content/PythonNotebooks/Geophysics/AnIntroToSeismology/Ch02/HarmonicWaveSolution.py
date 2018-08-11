@@ -4,10 +4,11 @@ and plotted in terms of time and distance.
 """
 
 import numpy as np
-from matplotlib import pyplot as plt, rc
+from matplotlib import pyplot as plt
+import matplotlib
 from mpl_toolkits.mplot3d import Axes3D
 
-rc('text', usetex=True)
+matplotlib.rcParams['mathtext.fontset'] = 'cm'
 
 T0 = 0      # beginning time in s
 TF = 4      # ending time in s
@@ -35,7 +36,7 @@ AX = plt.gca(projection=Axes3D.name)
 AX.contour3D(TT, XX, U, 80)
 AX.set_xlabel(r'time (s)', fontsize=18)
 AX.set_ylabel(r'distance (m)', fontsize=18)
-AX.set_zlabel(r'$u(x,t)$')
+AX.set_zlabel(r'$u(x,t)$', fontsize=18)
 AX.tick_params(labelsize=14)
 AX.invert_xaxis()
 plt.show()
