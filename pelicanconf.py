@@ -42,7 +42,7 @@ TAG_CLOUD_MAX_ITEMS = 0
 DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = False
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins/pelican-plugins']
