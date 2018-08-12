@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Hussain AlSalem'
 SITENAME = 'geoHussain'
-SITEURL = ''
+SITEURL = 'https://geohussain.github.io/pelican_website_src/'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'pdfs', 'extra']
