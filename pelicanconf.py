@@ -71,7 +71,7 @@ MENUITEMS = (
     ('CV', '/pages/cv.html'),
 )
 MENUITEMS = (
-    ('Blog', SITEURL + '/category/Blog.html'),
+    ('Blog', SITEURL + '/category/blog.html'),
     ('Python Notebooks', SITEURL + '/pages/python-notebooks.html'),
     ('Publications', SITEURL + '/publications.html'),
     ('CV', SITEURL + '/pages/cv.html'),
