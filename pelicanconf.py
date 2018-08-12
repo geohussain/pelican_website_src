@@ -42,7 +42,7 @@ TAG_CLOUD_MAX_ITEMS = 0
 DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
+# RELATIVE_URLS = False
 THEME = 'themes/pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins/pelican-plugins']
@@ -69,6 +69,12 @@ MENUITEMS = (
     ('Python Notebooks', '/pages/python-notebooks.html'),
     ('Publications', '/publications.html'),
     ('CV', '/pages/cv.html'),
+)
+MENUITEMS = (
+    ('Blog', SITEURL + '/category/Blog.html'),
+    ('Python Notebooks', SITEURL + '/pages/python-notebooks.html'),
+    ('Publications', SITEURL + '/publications.html'),
+    ('CV', SITEURL + '/pages/cv.html'),
 )
 PYGMENTS_STYLE = 'monokai'
 
