@@ -1,6 +1,6 @@
 """
-Code that illustrates how the harmonic wave solution is calculated
-and plotted in terms of time and distance.
+Code that illustrates how transmission occurs in time domain for
+a homogeneous media
 """
 
 import numpy as np
@@ -17,8 +17,6 @@ def wave_solve_c(_dur, _dt, _r, _vp, _f):
     Function that solves the homogeneous wave equation in time domain
     '''
     time = np.arange(0, _dur + _dt, _dt)
-    # angular frequency of wave
-    # omega = 2 * np.pi() * _f
     delay = _r / _vp + 1
 
     # definition of the ricker wavelet source

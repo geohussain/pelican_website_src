@@ -1,8 +1,9 @@
-Title: Harmonic Wave Solution
+Title: Analytical solution of wave transmission in a homogeneous media
 Date: 2018-08-12 10:27
 Modified: 2018-08-12 10:28
 Category: Notebooks/Geophysics/An Introduction to Seismology
 Tags: Geophysics, Seismics
-Slug: reflection-and-transmission
+Slug: transmission-in-homogeneous-media
 Authors: Hussain AlSalem
-Summary: Code that describes reflection and transmission in acoustic waves.
+Summary: Code that describes wave transmission in homogeneous media
+
