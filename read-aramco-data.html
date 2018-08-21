@@ -13,13 +13,13 @@
 
         <meta name="author" content="Hussain AlSalem" />
         <meta name="keywords" content="Geophysics,Seismics,Aramco" />
-        <meta name="description" content="Reading and sorting data¶Loading package and data¶Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting data." />
+        <meta name="description" content="Loading package and data¶Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting data." />
 
         <meta property="og:site_name" content="geoHussain" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Reading and sorting aramco data"/>
         <meta property="og:url" content="https://geohussain.github.io/pelican_website_src/read-aramco-data.html"/>
-        <meta property="og:description" content="Reading and sorting data¶Loading package and data¶Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting data."/>
+        <meta property="og:description" content="Loading package and data¶Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting data."/>
         <meta property="article:published_time" content="2018-08-21" />
             <meta property="article:section" content="Notebooks" />
             <meta property="article:tag" content="Geophysics" />
@@ -116,7 +116,7 @@ geoHussain            </a>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Reading-and-sorting-data">Reading and sorting data<a class="anchor-link" href="#Reading-and-sorting-data">¶</a></h2><h3 id="Loading-package-and-data">Loading package and data<a class="anchor-link" href="#Loading-package-and-data">¶</a></h3><p>Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting&nbsp;data.</p>
+<h3 id="Loading-package-and-data">Loading package and data<a class="anchor-link" href="#Loading-package-and-data">¶</a></h3><p>Here I load the obspy, numpy and matplotlib packages for reading segy files, sorting and plotting&nbsp;data.</p>
 </div>
 </div>
 </div>
@@ -148,7 +148,7 @@ geoHussain            </a>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Trace-info">Trace info<a class="anchor-link" href="#Trace-info">¶</a></h3><p>For a specific trace number, this method outputs the source x and y positions and elevation info. It also outputs the same infor for the&nbsp;receiver.</p>
+<h3 id="Trace-info">Trace info<a class="anchor-link" href="#Trace-info">¶</a></h3><p>For a specific trace number, this method outputs the source $x$ and $y$ positions and elevation info. It also outputs the same infor for the&nbsp;receiver.</p>
 </div>
 </div>
 </div>
@@ -219,7 +219,7 @@ geoHussain            </a>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="First-trace-plot">First trace plot<a class="anchor-link" href="#First-trace-plot">¶</a></h3><p>Here trace number is $(10 + 10 * 122 + 2 * 122 * 122)$ where this is (receiver_index_in_x + receiver_index_in_y <em> number_of_receivers_in_x + source_index </em>&nbsp;total_number_of_receivers)</p>
+<h3 id="First-trace-plot">First trace plot<a class="anchor-link" href="#First-trace-plot">¶</a></h3><p>Here trace number is $(10 + 10 * 122 + 2 * 122 * 122)$ where this is $(receiver\_index\_in\_x + receiver\_index\_in\_y * number\_of\_receivers\_in\_x + source\_index *&nbsp;total\_number\_of\_receivers)$</p>
 <p>Here, I show info for a receiver at the index $(10,10)$ and for source number $2$. The receiver is close to the source, so I am expecting to get <strong>early first arrivals</strong>.</p>
 </div>
 </div>
@@ -450,8 +450,8 @@ kiSpRRkMSJIkSS3KYECSJElqUQYDkiRJUosyGJAkSZJa1P8FvMNEW+jVnHwAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Second-trace-plot">Second trace plot<a class="anchor-link" href="#Second-trace-plot">¶</a></h3><p>Here trace number is $(10 + 10 * 122 + 58 * 122 * 122)$ where this is (receiver_index_in_x + receiver_index_in_y <em> number_of_receivers_in_x + source_index </em>&nbsp;total_number_of_receivers)</p>
-<p>Here, I show info for a receiver at the index $(10,10)$ and for source number $58$. The receiver is far from the source, so I am expecting to get <strong>late first arrivals which I do</strong>.</p>
+<h3 id="Second-trace-plot">Second trace plot<a class="anchor-link" href="#Second-trace-plot">¶</a></h3><p>Here trace number is $(10 + 10 * 122 + 58 * 122 * 122)$ where this is $(receiver\_index\_in\_x + receiver\_index\_in\_y * number\_of\_receivers\_in\_x + source\_index *&nbsp;total\_number\_of\_receivers)$</p>
+<p>Here, I show info for a receiver at the index $(10,10)$ and for source number $58$. The receiver is far from the source, so I am expecting to get <strong>late first arrivals which I don&#8217;t get</strong>.</p>
 </div>
 </div>
 </div>
