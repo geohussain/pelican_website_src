@@ -75,7 +75,7 @@ MENUITEMS = (
     ('Blog', SITEURL + '/category/blog.html'),
     ('Python Notebooks', SITEURL + '/pages/python-notebooks.html'),
     ('Publications', SITEURL + '/publications.html'),
-    ('CV', SITEURL + '/pages/cv.html'),
+    ('CV', SITEURL + '/pages/curriculum-vitae.html'),
 )
 PYGMENTS_STYLE = 'monokai'
 
