@@ -9,7 +9,7 @@ SITEURL = 'https://geohussain.github.io/pelican_website_src'
 # SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'pdfs', 'extra']
+STATIC_PATHS = ['images', 'pdfs', 'extra', 'papers']
 
 TIMEZONE = 'America/Los_Angeles'
 
