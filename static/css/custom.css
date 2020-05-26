@@ -4,6 +4,3 @@ table a:not(.btn),.table a:not(.btn){text-decoration:none}
     border: 1px solid #bbbbbb;
     padding: 10px;
 }
-div.input_area {
-    background: #3b3a3e;
-}
