@@ -1,0 +1,6 @@
+table a:not(.btn),.table a:not(.btn){text-decoration:none}
+.panel-body {
+    background: #f8f8f8;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+}
